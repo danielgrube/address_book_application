@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Contacts</title>
+</head>
+<body>
+
+{% queryset = get_current_users() %}
+{% print(queryset) %}
+{% print(queryset.exists()) %}
+{% print(queryset.count()) %}
+
+</body>
+</html>
